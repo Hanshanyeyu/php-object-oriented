@@ -81,7 +81,7 @@ class ModuleRunner
                 $this->handleMethod($instance, $method, $params);
             }
 
-            array_push($this->modules, $interface);
+            array_push($this->modules, $instance);
         }
     }
 
